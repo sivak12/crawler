@@ -77,10 +77,11 @@
 			'crawl':'crawlUrl'
 			}
 		});
+		CrawlUrl crawlUrl = new CrawlUrl();
 		
 		router.on('route:crawlUrl', function() {
 			console.log("Crawl url");
-			CrawlUrl crawlUrl = new CrawlUrl();
+			
 			crawlUrl.render();
 		});
 	

@@ -15,7 +15,7 @@
 
 		foreach($html->find("a") as $link) {
 		echo $link->href."<br/>";
-				
+		}		
 		
 	});
 	
